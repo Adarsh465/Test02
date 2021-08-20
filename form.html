@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center><h3>Contect Page</h3></center>
+    <br><br>
+    <form>
+        <lable for="fname">First Name: </lable>
+        <input type="text" name="fname" maxlength="25" required placeholder="Enter your name">
+        <lable for="lname">Last Name: </lable>
+        <input type="text" name="lname" maxlength="25" required placeholder="Enter your surname">
+        <br><br>
+        <lable for="birthday">DOB :</lable>
+        <input type="date" name="birthday">
+        <br><br>
+        <lable>Gender :</lable>
+        <br>
+        <lable for="gender">Male</lable>
+        <input type="radio" name="gender" value="Male">
+        <lable for="gender">Female</lable>
+        <input type="radio" name="gender" value="Female">
+        <lable for="gender">Others</lable>
+        <input type="radio" name="gender" value="Others">
+        <br><br>
+        <lable for="m_no">Contect No. :</lable>
+        <input type="tel" name="m_no" size="13">
+        <br><br>
+        <label>Hobbies :</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="cricket">
+        <lable for="hobbies">Cricket</lable>
+        <br>
+        <input type="checkbox" name="Reading" value="Reading">
+        <lable for="hobbies">Reading</lable>
+        <br>
+        <input type="checkbox" name="hobbies" value="Treavling">
+        <lable for="hobbies">Treavling</lable>
+        <br>
+        <input type="checkbox" name="hobbies" value="Video games">
+        <lable for="hobbies">Video games</lable>
+        <br><br>
+        <label>Rate your self :</label>
+        <br>
+        1
+        <input type="range" name="self" value="70">
+        100
+        <br><br>
+        <label for="mail">Mail I'd :</label>
+        <input type="email" name="mail" required>
+        <br><br>
+        <label>Opinion :</label>
+        <textarea name="opinion" row="10" col="30"></textarea>
+        <br><br>
+        <input type="submit" name="submit" onclick="alert('Conformation')" value="Submit">
+        <input type="reset">
+        <input type="button" value="Tap" onclick="alert('chala ja')">
+    </form>
+    <br> <br>
+    <h5>for any quary <a href="quary_form.html">mail us</a></h5>
+
+</body>
+</html>

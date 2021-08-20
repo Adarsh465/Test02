@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+</head>
+<body>
+        <h2><center>Cherity Donetions</center></h>
+
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Card details:</legend>
+        <!--<label for="card">Card :</label>-->
+        <br>
+        <select>
+            <option>--Select card--</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Debit Card">Debit Card</option>
+        </select>
+        <select>
+            <option>--Select card type--</option>
+            <option value="Rupey">Rupey</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">MasterCard</option>
+        </select>
+        <br><br>
+        <lable>Card No. :</lable>
+        <input type="number" name="card no" value="card no." required maxlength="16" size="20" placeholder="1234-1234-1234-1234">
+        <br><br>
+        <label>Card holder's name : </lable>
+        <input type="text" name="holder name" value="">
+        <br><br>
+        <lable>Expire Date</lable>
+        <input type="month" name="expire date" value="expire date">
+        <lable>CVV :</lable>
+        <input type="password" name="cvv" value="cvv" maxlength="" size="5" placeholder="***">
+        <br><br>
+        <input type="submit" name="submit" value="PAY NOW" onclick="alert('Conformation call & THANKS')">
+        <input type="reset" Value="RESET">
+        </fieldset>
+        </form>
+    <p>Move to home page <a href="basic.html">Click here</a>.</p>
+    
+</body>
+</html>
